@@ -1,4 +1,4 @@
-# Cake Website Project
+# cakeee.com
 
 ## Description
 This project is a simple website for a fictional cake bakery, where users can browse through different types of cakes, view cake details, and contact the bakery for orders. The website is designed to showcase the bakery's offerings and provide information to potential customers.
