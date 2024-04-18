@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+
+        } */
+        #container{ 
+            width: 100vw;
+            height: 100vh;
+            background-color: bisque;
+            border: 1px solid black;
+            display: grid;
+            /* grid-template-columns: 20% auto 20%; */
+            /* grid-template-rows: 400px 200px auto; */
+            grid-template-areas:  'header header header header header header'
+            'nav nav nav nav nav nav'
+            'nav nav nav nav nav nav'
+            'nav nav nav nav nav nav'
+
+            ;
+            /* justify-content: center; */
+            /* grid-template-rows: ; */
+            
+
+
+
+        }
+        .sub{
+            background-color: aqua;
+            border: 1px solid orange;
+            grid-area: header;
+        }
+        .sub1{
+            background-color: rgb(195, 255, 0);
+            border: 1px solid orange;
+            grid-area: nav;
+        }
+        .sub2{
+            background-color: rgb(29, 123, 255);
+            border: 1px solid orange;
+            grid-area: aboutme;
+        }
+        .sub3{
+            background-color: rgb(244, 244, 30);
+            border: 1px solid orange;
+            grid-area: ad;
+        }
+        .sub4{
+            background-color: rgb(20, 225, 75);
+            border: 1px solid orange;
+            grid-area: ;
+        }
+        /* .sub5{
+            background-color: rgb(250, 128, 28);
+            border: 1px solid orange;
+        }
+        .sub6{
+            background-color: rgb(255, 0, 0);
+            border: 1px solid orange;
+        }
+        .sub7{
+            background-color: rgb(255, 0, 195);
+            border: 1px solid orange;
+            grid-area: ;
+        }
+        .sub8{
+            background-color: rgb(197, 147, 255);
+            border: 1px solid orange;
+            grid-area: ;
+        }
+        .sub9{
+            background-color: rgb(212, 0, 255);
+            border: 1px solid orange;
+            grid-area: ;
+        }
+        .sub0{
+            background-color: aqua;
+            border: 1px solid orange;
+            grid-area: ;
+        } */
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="sub sub1"></div>
+        <div class="sub sub2"></div>
+        <div class="sub sub3"></div>
+        <div class="sub sub4"></div>
+        <div class="sub sub5"></div>
+        <div class="sub sub6"></div>
+        <div class="sub sub7"></div>
+        <div class="sub sub8"></div>
+        <div class="sub sub9"></div>
+        <div class="sub sub0"></div>
+    </div>
+</body>
+</html>
