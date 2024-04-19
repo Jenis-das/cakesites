@@ -84,6 +84,8 @@ body{
     /* color: #FFD700; */
 }
 
+
+
 .navbar1 li :hover{
     text-decoration: underline;
     transition-property: text-decoration;
@@ -273,28 +275,50 @@ body{
     width: 15em;
     border: 1px solid black;
     display: flex;
+    margin: 0.7em 4em;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .custom:hover{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+    /* gap: 10px; */
     width: 90%;
     transition-property: all;
     transition-timing-function: ease-out;
-    transition-duration: 2s;
+    transition-duration: 0.7s;
 }
+
+
+.custom div{
+    display: none;
+    height: 100%;
+}
+.custom:hover>div{
+    display: block;
+    /* justify-content: space-around; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+}
+
 .custom:hover .customcakein{
-    opacity: 0;
-    /* display: none; */
-    transition-property: all;
-    transition-timing-function: ease-out;
-    transition-duration: 1s;
+    display: none;
+    position: absolute;
 }
-
-
+.custom > div > div{
+    min-width: 4em;
+    height: 4em;
+    display: block;
+}
 
 *{
-    font-family:cursive;
+    /* font-family:cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: "Cedarville Cursive", cursive; */
+    border: 1px dotted black;
 }
 
 footer{
