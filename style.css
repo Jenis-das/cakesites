@@ -275,7 +275,7 @@ body{
     width: 15em;
     border: 1px solid black;
     display: flex;
-    margin: 0.7em 4em;
+    /* margin: 0.7em 4em; */
     justify-content: center;
     align-items: center;
     position: relative;
@@ -284,9 +284,10 @@ body{
 .custom:hover{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-
+    /* margin: auto; */
     /* gap: 10px; */
     width: 90%;
+    /* max-width: ; */
     transition-property: all;
     transition-timing-function: ease-out;
     transition-duration: 0.7s;
@@ -318,7 +319,7 @@ body{
     /* font-family:cursive;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-family: "Cedarville Cursive", cursive; */
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 footer{
