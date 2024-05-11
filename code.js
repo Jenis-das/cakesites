@@ -1,1 +1,1 @@
-document.getElementById()
+{% comment %} document.getElementById() {% endcomment %}
